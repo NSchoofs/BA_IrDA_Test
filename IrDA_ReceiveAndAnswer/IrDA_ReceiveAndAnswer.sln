@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IrDA_ReceiveAndAnswer", "IrDA_ReceiveAndAnswer.vcxproj", "{7BBF7DF8-6CCF-4E8B-B30B-6E2BBC00D836}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IrDA_IniciateAndEvaluate", "..\IrDA_IniciateAndEvaluate\IrDA_IniciateAndEvaluate.vcxproj", "{03CDA9C5-B36A-43E9-826B-E2F9C566E285}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RFIDReadAtomicAccess", "..\RFIDReadAtomicAccess\RFIDReadAtomicAccess.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BLE_scan_ModifiedFortest", "..\BLE_scan_ModifiedFortest\BLE_scan_ModifiedFortest.vcxproj", "{28FDA506-69E0-4BAF-A9A9-25E9C78AE4F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BBF7DF8-6CCF-4E8B-B30B-6E2BBC00D836}.Debug|x86.ActiveCfg = Debug|Win32
+		{7BBF7DF8-6CCF-4E8B-B30B-6E2BBC00D836}.Debug|x86.Build.0 = Debug|Win32
+		{7BBF7DF8-6CCF-4E8B-B30B-6E2BBC00D836}.Release|x86.ActiveCfg = Release|Win32
+		{7BBF7DF8-6CCF-4E8B-B30B-6E2BBC00D836}.Release|x86.Build.0 = Release|Win32
+		{03CDA9C5-B36A-43E9-826B-E2F9C566E285}.Debug|x86.ActiveCfg = Debug|Win32
+		{03CDA9C5-B36A-43E9-826B-E2F9C566E285}.Debug|x86.Build.0 = Debug|Win32
+		{03CDA9C5-B36A-43E9-826B-E2F9C566E285}.Release|x86.ActiveCfg = Release|Win32
+		{03CDA9C5-B36A-43E9-826B-E2F9C566E285}.Release|x86.Build.0 = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{28FDA506-69E0-4BAF-A9A9-25E9C78AE4F4}.Debug|x86.ActiveCfg = Debug|Win32
+		{28FDA506-69E0-4BAF-A9A9-25E9C78AE4F4}.Debug|x86.Build.0 = Debug|Win32
+		{28FDA506-69E0-4BAF-A9A9-25E9C78AE4F4}.Release|x86.ActiveCfg = Release|Win32
+		{28FDA506-69E0-4BAF-A9A9-25E9C78AE4F4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A58A5C7-3A34-441B-B444-C7C83C22B8F9}
+	EndGlobalSection
+EndGlobal
